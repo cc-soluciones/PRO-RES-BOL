@@ -1,26 +1,73 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+    --background: #12140e;
+    --foreground: #e2e3dd;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+	--color-surface-container-high: #24281a;
+	--color-surface: #12140e;
+	--color-on-tertiary: #ffffff;
+	--color-on-tertiary-fixed-variant: #a7ad9a;
+	--color-primary-fixed: #c5ccac;
+	--color-tertiary-container: #7b4e3d;
+	--color-secondary-container: #3d4232;
+	--color-error-container: #93000a;
+	--color-surface-dim: #0e100a;
+	--color-secondary-fixed-dim: #a7ad9a;
+	--color-on-error-container: #ffdad6;
+	--color-primary: #8e976c;
+	--color-on-surface-variant: #c2c9b4;
+	--color-surface-container-highest: #2f3325;
+	--color-on-primary: #24281a;
+	--color-inverse-on-surface: #12140e;
+	--color-surface-container-low: #1a1e14;
+	--color-surface-container: #1d2117;
+	--color-surface-bright: #393d2f;
+	--color-tertiary-fixed: #e7d9d4;
+	--color-primary-fixed-dim: #8e976c;
+	--color-tertiary: #cc7a5c;
+	--color-on-primary-fixed-variant: #4b5320;
+	--color-secondary: #a7ad9a;
+	--color-on-secondary-fixed: #12140e;
+	--color-on-primary-container: #ffffff;
+	--color-on-background: #e2e3dd;
+	--color-outline-variant: #44493a;
+	--color-inverse-surface: #e2e3dd;
+	--color-on-primary-fixed: #12140e;
+	--color-on-secondary-fixed-variant: #3d4232;
+	--color-on-tertiary-fixed: #12140e;
+	--color-tertiary-fixed-dim: #cc7a5c;
+	--color-secondary-fixed: #e2e3dd;
+	--color-primary-container: #4b5320;
+	--color-outline: #8e9382;
+	--color-on-secondary: #12140e;
+	--color-on-tertiary-container: #ffffff;
+	--color-on-error: #ffffff;
+	--color-inverse-primary: #c5ccac;
+	--color-surface-tint: #8e976c;
+	--color-surface-container-lowest: #0b0c08;
+	--color-on-surface: #e2e3dd;
+	--color-on-secondary-container: #c2c9b4;
+	--color-surface-variant: #44493a;
+	--color-background: #12140e;
+	--color-error: #ffb4ab;
+    --font-sans: var(--font-geist-sans);
+    --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    background: var(--background);
+    color: var(--foreground);
+    font-family: 'Manrope', sans-serif;
 }
