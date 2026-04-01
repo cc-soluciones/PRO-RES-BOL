@@ -7,8 +7,8 @@ export const Hero = ({ id }: { id: string }) => {
             <div className="absolute inset-0 z-0">
                 <img
                     className="w-full h-full object-cover opacity-40 hero-vignette"
-                    data-alt="dramatic high-contrast top-down view of a gourmet plate on a dark rustic table with moss-like accents"
-                    src="https://cdn.discordapp.com/attachments/1202990223022362725/1488217657827131493/ChatGPT_Image_30_mar_2026_01_44_55_p.m..png?ex=69cbfa33&amp;is=69caa8b3&amp;hm=4799a3f3070e15e26fb617ce30c95947399449385961a2ed112f8f6494960154&amp;"
+                    src="/LosBoldos.webp"
+                    data-alt="Los boldos"
                 />
             </div>
             <div className="relative z-10 w-full max-w-screen-2xl px-12 flex flex-col md:flex-row items-center justify-between gap-12">
